@@ -1,0 +1,9 @@
+# GWAY3
+float64 Accel_Pedal_Position
+float64 Brake_Active
+float64 BrakeMasterCylinder_Pressure
+float64 Engine_Speed
+float64 Gear_Target_Change
+float64 GearSelDisp
+float64 Throttle_Position
+# float64 ACC_ACT_Status

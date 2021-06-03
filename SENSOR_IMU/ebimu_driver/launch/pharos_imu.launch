@@ -1,0 +1,8 @@
+<launch>
+	<node name="ebimu_driver_node" pkg="ebimu_driver" type="ebimu_driver_node" output="screen">
+		<param name="frame_id" 						value="imu"/>
+		<param name="setPort"	 					value="/dev/ttyUSB0"/>
+		<param name="setBaudrate"	 				value="921600"/>
+		<param name="setHz"	 					value="110"/>
+	</node>
+</launch>

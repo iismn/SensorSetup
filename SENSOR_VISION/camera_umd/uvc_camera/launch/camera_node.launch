@@ -1,0 +1,44 @@
+<launch>
+  <group ns="Logitech_BRIO">
+    <node pkg="uvc_camera" type="uvc_camera_node" name="uvc_camera" output="screen">
+      <param name="width" type="int" value="1920" />
+      <param name="height" type="int" value="1080" />
+      <param name="fps" type="int" value="60" />
+      <param name="frame" type="string" value="Logitech_BRIO" />
+
+      <param name="auto_focus" type="bool" value="False" />
+      <param name="focus_absolute" type="int" value="0" />
+
+      <param name="auto_exposure" type="int" value="1" />
+      <param name="exposure_absolute" type="int" value="300" />
+
+      <!-- other supported params: auto_exposure, exposure_absolute, brightness, power_line_frequency -->
+
+      <param name="device" type="string" value="/dev/video0" />
+      <param name="camera_info_url" type="string" value="file://$(find uvc_camera)/cfg/Logitech_BRIO_FHD.yaml" />
+    </node>
+  </group>
+
+  <node pkg="image_proc" type="image_proc"
+        ns="Logitech_BRIO"
+        name="image_proc">
+  </node>
+
+  <node pkg="nodelet" type="nodelet"
+        args="standalone image_proc/crop_decimate"
+        name="Logitech_DECIMATER">
+    <param name="x_offset" type="int" value="1" />
+    <param name="y_offset" type="int" value="1" />
+    <param name="width" type="int" value="1920" />
+    <param name="height" type="int" value="1080" />
+
+    <!-- remap input topics -->
+    <remap from="camera/image_raw" to="/Logitech_BRIO/image_rect_color"/>
+    <remap from="camera/image_info" to="/Logitech_BRIO/camera_info"/>
+
+    <!-- remap output topics -->
+    <remap from="camera_out/image_raw" to="/Logitech_BRIO/CROP/image_rect_color"/>
+    <remap from="camera_out/image_info" to="/Logitech_BRIO/CROP/camera_info"/>
+  </node>
+
+</launch>

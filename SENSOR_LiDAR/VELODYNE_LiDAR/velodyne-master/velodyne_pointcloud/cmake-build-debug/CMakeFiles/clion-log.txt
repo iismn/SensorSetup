@@ -1,0 +1,21 @@
+/opt/clion-2018.3.2/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/jwkolab/i30_ws_190409/src/pharos_drivers/velodyne-master/velodyne_pointcloud
+-- Using CATKIN_DEVEL_PREFIX: /home/jwkolab/i30_ws_190409/src/pharos_drivers/velodyne-master/velodyne_pointcloud/cmake-build-debug/devel
+-- Using CMAKE_PREFIX_PATH: /home/jwkolab/i30_ws_190409/devel;/opt/ros/kinetic
+-- This workspace overlays: /home/jwkolab/i30_ws_190409/devel;/opt/ros/kinetic
+-- Using PYTHON_EXECUTABLE: /usr/bin/python
+-- Using Debian Python package layout
+-- Using empy: /usr/bin/empy
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /home/jwkolab/i30_ws_190409/src/pharos_drivers/velodyne-master/velodyne_pointcloud/cmake-build-debug/test_results
+-- Found gmock sources under '/usr/src/gmock': gmock will be built
+-- Found gtest sources under '/usr/src/gmock': gtests will be built
+-- Using Python nosetests: /usr/bin/nosetests-2.7
+-- catkin 0.7.14
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- Boost version: 1.58.0
+-- Found the following Boost libraries:
+--   signals
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/jwkolab/i30_ws_190409/src/pharos_drivers/velodyne-master/velodyne_pointcloud/cmake-build-debug

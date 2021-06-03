@@ -1,0 +1,6 @@
+<launch>
+	<node name="vehicle_tf_node" pkg="vehicle_tf" type="vehicle_tf_node" output="screen">
+      	<rosparam command="load" file="$(find vehicle_tf)/config/tf_config.yaml" />
+				<param name="bag" value="true"/>
+	</node>
+</launch>

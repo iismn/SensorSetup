@@ -1,0 +1,92 @@
+tf_num: 8
+#
+tf_1:
+  frame_id: 'Vehicle_Frame'
+  child_frame_id: 'Roof_Mount'
+  x: 1.5
+  y: 0
+  z: 1.5
+  roll: 0
+  pitch: 0.0
+  yaw: 0.0
+#
+tf_2:
+  frame_id: 'Roof_Mount'
+  child_frame_id: 'Top_VLP16'
+  x: 0
+  y: 0
+  z: 0.29
+  roll: 0
+  pitch: 0
+  yaw: 0
+#
+tf_3:
+  frame_id: 'Roof_Mount'
+  child_frame_id: 'Left_VLP16'
+  x: 0
+  y: 0.5
+  z: 0.12
+  roll: -15
+  pitch: 0
+  yaw: 0
+#
+tf_4:
+  frame_id: 'Roof_Mount'
+  child_frame_id: 'Right_VLP16'
+  x: 0
+  y: -0.5
+  z: 0.12
+  roll: 15
+  pitch: 0
+  yaw: 0
+#
+tf_5:
+  frame_id: 'Roof_Mount'
+  child_frame_id: 'Logitech_C920'
+  x: 0.05
+  y: 0
+  z: 0.02
+  roll: -90
+  pitch: 0
+  yaw: -90
+#
+tf_6:
+  frame_id: 'Top_VLP16'
+  child_frame_id: 'LEFT_FLIR_BlackFlyS'
+  x: -0.2112
+  y: 0.2434
+  z: 0.0885
+  roll: -86.9682153
+  pitch: -0.182489
+  yaw: -88.568291
+#
+tf_7:
+  frame_id: 'Roof_Mount'
+  child_frame_id: 'RIGHT_FLIR_BlackFlyS'
+  x: 0.12
+  y: -0.27
+  z: 0.05
+  roll: -86
+  pitch: 0
+  yaw: -85
+#
+tf_8:
+  frame_id: 'base_link'
+  child_frame_id: 'Vehicle_Frame'
+  x: 0.0
+  y: 0.0
+  z: 0.0
+  roll: 0.0
+  pitch: 0.0
+  yaw: 0.0
+#
+tf_5:
+  frame_id: 'Top_VLP16'
+  child_frame_id: 'usb_cam'
+  x: -0.0105
+  y: -0.0464
+  z: -0.0536
+  roll: -88.9153749
+  pitch: -0.3503102
+  yaw: -89.096679
+#

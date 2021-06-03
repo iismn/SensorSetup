@@ -1,0 +1,3 @@
+uint16 minEndTime
+uint16 startTime
+uint16 maxEndTime

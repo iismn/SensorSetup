@@ -1,0 +1,3 @@
+VehicleSafetyExtensions_t[] VehicleSafetyExtensions
+SpecialVehicleExtensions_t[] SpecialVehicleExtensions
+SupplementalVehicleExtensions_t[] SupplementalVehicleExtensions
