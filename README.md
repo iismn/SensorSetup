@@ -29,7 +29,7 @@ cd .. && catkin_make</pre>
 
 ## <div align=left>ADD INFO</div>
 #### VEHICLE CONSIST SENSOR 
-- Ouster OS1-128 x1 [NEW / TimeStamp - ROS Time]
+- Ouster OS1-128 x1 [NEW]
 - Velodyne VLP-16 Hi-Res LiDAR x3  
 - Xsense MTI-30 AHRS IMU x1  
 - EB-IMU V5 AHRS IMU x1  
@@ -40,3 +40,8 @@ cd .. && catkin_make</pre>
 - <del>Novatel RTK GPS+INS x1</del>
 - <del>Velodyne HDL-32 Hi-Res LiDAR x1</del>
 
+#### V 1.2.0
+- Add Ouster OS1-128
+- Update Velodyne LiDAR driver
+- Ouster LiDAR driver composed with ROS-Time (Packet / ROS Message)
+- Ublox F9P add (On Going)
