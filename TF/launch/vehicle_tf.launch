@@ -1,0 +1,7 @@
+<launch>
+	<node name="vehicle_tf_node" pkg="vehicle_tf" type="vehicle_tf_node" output="screen">
+      	<rosparam command="load" file="$(find vehicle_tf)/config/tf_config.yaml" />
+				<param name="USING_BAG" value="true"/>
+				<param name="BAG_STAMP_REF" value="/imu_raw"/>
+	</node>
+</launch>

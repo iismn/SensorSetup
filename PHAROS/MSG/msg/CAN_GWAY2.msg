@@ -1,0 +1,7 @@
+# GWAY2
+float64 Lateral_Accel_Speed
+float64 Parking_Brake_Active
+float64 AirConditioner_On
+float64 Steering_Angle
+float64 Steering_Speed
+float64 Steering_Tq

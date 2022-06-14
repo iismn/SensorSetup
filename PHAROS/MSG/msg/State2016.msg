@@ -1,0 +1,19 @@
+float64 velocity
+float64 front_left_wheel
+float64 front_right_wheel
+float64 rear_left_wheel
+float64 rear_right_wheel
+float64 wheel_angle
+float64 turning_radius
+float64 lat_acc
+float64 lon_acc
+float64 angular_velocity
+float64 heading
+float64 yaw_rate
+float64 x_dot
+float64 y_dot
+float64 x
+float64 y
+uint16 gear
+# normaly closed, i.e. 1 - ok, 0 - fault
+bool emergency

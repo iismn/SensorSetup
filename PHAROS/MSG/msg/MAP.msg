@@ -1,0 +1,3 @@
+uint8 msgCnt
+int32 layertype
+IntersectionGeometryList[] intersectionGeometryList

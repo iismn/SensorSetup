@@ -1,0 +1,26 @@
+image_width: 1920
+image_height: 1080
+camera_name: Logitech_BRIO
+camera_matrix:
+  rows: 3
+  cols: 3
+  data: [ 1.144810406181205e+03,    0.     ,  9.662573529698977e+02,
+            0.     ,  1.144669963436012e+03,  5.430427209650604e+02,
+            0.     ,    0.     ,    1.     ]
+camera_model: plumb_bob
+distortion_coefficients:
+  rows: 1
+  cols: 5
+  data: [0.182391138183941, -0.417395746327992, 3.342646423053160e-04, -1.839895036229056e-04, 0.213514038991592]
+rectification_matrix:
+  rows: 3
+  cols: 3
+  data: [ 1, 0, 0,
+          0, 1, 0,
+          0, 0, 1]
+projection_matrix:
+  rows: 3
+  cols: 4
+  data: [  1.144810406181205e+03,     0.     ,   9.662573529698977e+02, 0,
+             0.     ,   1.144669963436012e+03,   5.430427209650604e+02,     0.     ,
+             0.     ,     0.     ,     1.     ,     0.     ]

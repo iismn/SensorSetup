@@ -1,0 +1,13 @@
+std_msgs/Header header
+float64 lateral_offset
+float64 curvature
+float64 heading_difference
+float64 vehicle_heading
+float64 wp_path_heading
+float64 planner_path_heading
+float64 velocity_limit
+float64 goal_distance
+float64 inclination
+float64 lateral_offset_origin
+float64 sudden_stop
+float64 mission_state

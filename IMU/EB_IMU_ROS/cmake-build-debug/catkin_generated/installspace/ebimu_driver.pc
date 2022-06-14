@@ -1,0 +1,8 @@
+prefix=/usr/local
+
+Name: ebimu_driver
+Description: Description of ebimu_driver
+Version: 0.0.0
+Cflags: 
+Libs: -L/usr/local/lib 
+Requires: serial std_msgs pharos_msgs

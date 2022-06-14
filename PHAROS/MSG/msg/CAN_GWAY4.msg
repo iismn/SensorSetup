@@ -1,0 +1,5 @@
+# GWAY4
+float64 Cluster_Odometer
+float64 Longitudinal_Accel_Speed
+float64 Vehicle_Speed_Engine
+float64 Yaw_Rate_Sensor

@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/jwhan/ekf_ws/src/pharos_drivers/ebimu_driver/cmake-build-debug/devel/setup.sh

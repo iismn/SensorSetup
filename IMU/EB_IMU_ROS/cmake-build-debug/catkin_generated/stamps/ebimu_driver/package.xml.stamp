@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<package>
+  <name>ebimu_driver</name>
+  <version>0.0.0</version>
+  <description>Example package for using http://wjwwood.io/serial/ library</description>
+
+  <author email="garyservin@gmail.com">Gary Servin</author>
+
+  <maintainer email="garyservin@gmail.com">Gary Servin</maintainer>
+
+  <license>BSD</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>serial</build_depend>
+  <build_depend>std_msgs</build_depend>
+  <build_depend>pharos_msgs</build_depend>
+  <!--<build_depend>geometry_msgs</build_depend>-->
+  <run_depend>pharos_msgs</run_depend>
+  <run_depend>serial</run_depend>
+  <run_depend>std_msgs</run_depend>
+  <!--Cmakelist에 catkin_package에 들어가 있는 것을 이걸 반드시 넣어줘야 함.-->
+  <!--뭘 넣냐면 빌드 런 이것들!.-->
+
+  <!--<run_depend>geometry_msgs</run_depend>-->
+
+
+</package>

@@ -1,0 +1,5 @@
+# GWAY1
+float64 Wheel_Velocity_FR
+float64 Wheel_Velocity_RL
+float64 Wheel_Velocity_RR
+float64 Wheel_Velocity_FL

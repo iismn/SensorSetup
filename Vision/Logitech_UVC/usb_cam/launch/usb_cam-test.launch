@@ -1,0 +1,46 @@
+
+<launch>
+  <arg name="port" default="4" />
+  <arg name="width" default="1920" /><!-- 640 -->
+  <arg name="height" default="1080" /><!-- 360 -->
+  <arg name="fps" default="31" />
+  <arg name="format" default="mjpeg" /> <!-- yuyv -->
+
+  <arg name="brightness" default="127" />
+  <arg name="contrast" default="127" />
+  <arg name="saturation" default="127" />
+  <arg name="sharpness" default="127" />
+
+  <arg name="autofocus" default="false" />
+  <arg name="focus" default="0" />
+  <arg name="autoexposure" default="true" />
+  <arg name="exposure" default="10" />
+  <arg name="gain" default="-1" />
+  <arg name="autowhitebalance" default="false" />
+  <arg name="whitebalance" default="5000" />
+
+  <node name="usb_cam" pkg="usb_cam" type="usb_cam_node" output="screen" >
+    <param name="video_device" value="/dev/video$(arg port)" />
+    <param name="camera_frame_id" value="usb_cam" />
+    <param name="camera_name" value="usb_cam" />
+    <param name="io_method" value="mmap"/>
+
+    <param name="image_width" value="$(arg width)" />
+    <param name="image_height" value="$(arg height)" />
+    <param name="framerate" value="$(arg fps)" />
+    <param name="pixel_format" value="$(arg format)" />
+
+    <param name="brightness" value="$(arg brightness)"/>
+    <param name="contrast" value="$(arg contrast)"/>
+    <param name="saturation" value="$(arg saturation)"/>
+    <param name="sharpness" value="$(arg sharpness)"/>
+    <param name="autofocus" value="$(arg autofocus)"/>
+    <param name="focus" value="$(arg focus)"/>
+    <param name="autoexposure" value="$(arg autoexposure)"/>
+    <param name="exposure" value="$(arg exposure)"/>
+    <param name="gain" value="$(arg gain)"/>
+    <param name="auto_white_balance" value="$(arg autowhitebalance)"/>
+    <param name="white_balance" value="$(arg whitebalance)"/>
+  </node>
+
+</launch>
