@@ -14,7 +14,7 @@
 * MATLAB : MATLAB SUB SCRIPT
 * RGB LiDAR : FUSING LiDAR + RGB VISION  
 * Velodyne LiDAR : Velodyne VLP 16 Package with 3 LiDAR  
-* Ouster LiDAR : Velodyne VLP 16 Package with 3 LiDAR  
+* Ouster LiDAR : Ouster OS-1 128 Package with 1 LiDAR  
 #### TF  
 * ROS TF : Transformation between Sensors  
 #### VISION
