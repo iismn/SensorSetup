@@ -37,6 +37,7 @@ cd .. && catkin_make</pre>
 - Logitech BRIO 4K USB VISION x1 
 - Ublox F9P RTK-GPS x2 [NEW]
 - Ublox M8P RTK-GPS x1
+- SBG Navsight / APOGEE RTK-INS x1
 - <del>Novatel RTK GPS+INS x1</del>
 - <del>Velodyne HDL-32 Hi-Res LiDAR x1</del>
 
