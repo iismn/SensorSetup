@@ -45,3 +45,6 @@ cd .. && catkin_make</pre>
 - Update Velodyne LiDAR driver
 - Ouster LiDAR driver composed with ROS-Time (Packet / ROS Message)
 - Ublox F9P add (On Going)
+
+#### V 1.3.0
+- Add SBG Navisight, APOGEE FoG-Grade IMU
